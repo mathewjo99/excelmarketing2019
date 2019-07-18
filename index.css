@@ -2,6 +2,7 @@ body,html{
 	margin:0;
 	overflow-x: hidden;
 	font-family: 'Montserrat';
+	width:100vw;
 }
 
 		/* NAVBAR */
@@ -36,7 +37,7 @@ body,html{
 		
 		.logo-image img
 		{
-			width:13vh;
+			
 			height:6.5vh;
 			
 			margin-top:-17px;
@@ -192,6 +193,17 @@ body,html{
 	/* height: auto; */
 	/* display: none; */
 }
+@media (min-width: 1245px) and (max-width: 1800px) {
+	.logoimg{
+		}
+	.topExcel{
+		display: grid	;
+		justify-content: center;
+		align-items: center;
+		margin-bottom:50px;
+		margin-top:-7em;
+	}
+}
 
 #header {
     background-attachment: scroll,							scroll,					fixed;
@@ -290,7 +302,12 @@ body,html{
         margin: 0.25em 0 0 0;
     }
 
-
+		@media screen and (max-width: 1850px) {
+			.logoimg{
+				margin-top: 0vh;
+				max-width:40%;
+			}
+		}
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -463,6 +480,11 @@ body,html{
 
 	@media screen and (max-width: 840px) {
 
+
+		.topExcel{
+			margin-top:20vh;
+		}
+	
 		.logoimg{
 			max-width: 70%;
 			margin-top: 5vh;
@@ -490,7 +512,7 @@ body,html{
 		
 		.logoimg{
 			max-width: 60%;
-			margin-top: 5vh;
+			margin-top: 7vh;
 		}
 
 			h2 {
@@ -733,6 +755,7 @@ body,html{
 			padding-top: 2.5em;
 			width:100vw;
 			height:58vh;
+			margin-bottom:-130px;
 			/* border: 3px solid red; */
 
 		}
@@ -756,6 +779,13 @@ body,html{
 				grid-template-rows: 2fr 5fr;
 			} */
 		}
+		@media (max-width: 768px)
+		{
+			.about{
+				height:auto;
+				margin-bottom:2vh;
+			}
+		}
                     /* WHY ASSOCIATE WITH EXCEL */
 				
 	.whyassociate{
@@ -764,7 +794,7 @@ body,html{
 			font-family: 'Montserrat';
 			text-align:center;
 			font-size: 5vh;
-			margin-top: 10vw;
+			margin-top: 3vw;
 		}
     .excelAssociation{
     	width: 100%;
@@ -778,6 +808,7 @@ body,html{
     .images{
     	padding-left: 5vw;
     	margin-left: 5vw;
+    	
     }
     .grid-item1{
     	width:30vw;
@@ -805,8 +836,9 @@ body,html{
     	margin-left: 20vw;
     	margin-right: 10vw;
     	grid-column-gap: 3vw;
+    	margin-bottom: 3vw;
     }
-    @media (min-width: 481px) and (max-width: 767px) {
+    @media (min-width: 500px) and (max-width: 767px) {
   
     	.grid-item1{
     		font-size: 2vw;
@@ -857,8 +889,64 @@ body,html{
 
   
 	}
+	@media (min-width: 400px) and (max-width:500px) 
+	{
+		
+		.grid-item1{
+    		width: 30vw;
+			
+			 grid-column: 1 / span 2;
 
-	@media (min-width: 320px) and (max-width: 480px) {
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap: 1.5vh;
+			margin-right: 0vw;
+			margin-left: 2vw;
+
+
+		}
+		.wrapper1{
+			padding-top: 1.5vh;
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:1.5vh;
+			padding-left: 4vw;	
+
+		
+		}
+		.images{
+		height: 90px;	
+		margin-left: 6vw;
+		padding-left: 8.5vw;
+	
+	}
+		.whyassociate
+		{
+		
+					font-size:25px;
+					margin-top: 10vw;
+					
+						
+		
+			
+		}
+		.as{
+			font-size:14px;
+			width: 50vw;
+			padding-top: 1vh;
+			margin-right: 5vw;
+			
+		}
+		.ashead{
+			font-size: 14px;
+			width: 50vw;
+		}
+}
+	
+
+	@media (min-width: 320px) and (max-width: 399px) {
   
 .grid-item1{
     		width: 30vw;
@@ -936,6 +1024,7 @@ body,html{
 			grid-row-gap:7.5vh; 
 			margin-left: 0vh;
 			margin-right: 0vh;
+
 		}
 		.images{
 			padding-left: 4vw;
@@ -962,6 +1051,11 @@ body,html{
 
   
 	}
+	@media (min-width: 1025px) and (max-width: 1800px){
+		.images{
+			padding-left:3.1vw;
+		}
+	}
 
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -978,6 +1072,7 @@ body,html{
 			grid-row-gap:3.5vh; 
 			margin-left: 10vh;
 			margin-right: 10vh;
+
 			
 		}
 		.wrapper1{
@@ -989,6 +1084,7 @@ body,html{
 			margin-left: 0vh;
 			margin-right: 0vh;
 			padding-bottom:10vh;
+
 		}
 		.images{
 			padding-right: 10vw;
@@ -1120,6 +1216,7 @@ body,html{
 		background-color: black;
 		color:white;
 
+
 			}
 		.reachhead {
 				margin-top:1vh;
@@ -1142,6 +1239,7 @@ body,html{
 	  		grid-column-gap:1vw;
 	  		padding: 0vw 10vw;
 	  		margin-left: 7.5vw;
+	  		margin-bottom: 3vh;
 
 		}
 
@@ -1202,7 +1300,7 @@ body,html{
 			font-size: 30px;	
 		}
 		.reachimg{
-			height: 12vh;
+			height: 11vh;
 			width:60px;
 		}
 
@@ -1355,7 +1453,7 @@ body,html{
 
 	.gallery
 	{
-		margin-top:1.5em;
+		margin-top:1em;
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
@@ -1364,6 +1462,8 @@ body,html{
             -moz-transition: left 1s;
             -o-transition: left 1s;
             transition: left 1s;
+            margin-bottom: 0.5em;
+
 			
 	}
 
@@ -1523,6 +1623,9 @@ body,html{
 		 		text-align: center !important;
 		 		align-items: center;
 				margin-top: 10vw;
+				font-size=12vw;
+				font-family: 'Montserrat';
+			        font-weight: bold;
 		 	}
 
 		 }
@@ -1558,6 +1661,7 @@ body,html{
 		 		vertical-align: center;
 		 		align-items: center;
 					margin-top: 10vw;
+					font-size=8vw;
 		 	}
 
 		 }
@@ -1827,5 +1931,105 @@ footer {
 	}
   }
   
+
+  #contactSection .section-content {
+    text-align: center;
+ background-image: url("images/email-pattern.png");
+  
+
+    /*margin-top:-2em;*/
+    padding:5vw;
+  }
+
+
+  .contact-card{
+    text-align: left;
+    display: inline-block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10vw;
+  }
+
+  .contact-card p{
+    margin-bottom: 0rem;
+  }
+
+  .contact-img{
+    width: auto;
+    height:160px;
+    vertical-align: middle;
+    margin: 0px 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50%;
+    
+  }
+
+
+
+  .contact-dets{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-size: 1.75rem;
+    
+  }
+
+  .contact-mail, .contact-tel{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+  }
+
+  .contact-mail:hover, .contact-tel:hover{
+    color: #007bff;
+    text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .contact-card p{
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+
+    }
+
+    #contactSection .section-content{
+      margin-top: 5vh;
+      max-width: 100vw;
+      text-align: center;
+
+
+    }
+
+    #contactSection h1{
+      margin-bottom: 0px;
+    }
+
+    .contact-img{
+      width: auto;
+      height: 25vh;
+      margin-left:8vw;
+      margin-bottom:30px;
+
+      
+    }
+    .contact-dets{
+    
+      line-height: 1.2;
+      font-size: 16px;
+      word-wrap: break-word;
+      margin-left:5px;
+      
+    }
+    #navlogo
+    {
+      width:50px;
+      height:50px;
+  }
+
+
+  }
   
   /* Footer ends here */
